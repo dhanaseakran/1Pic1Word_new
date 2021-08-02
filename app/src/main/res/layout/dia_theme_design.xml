@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="@dimen/wh_80"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:id="@+id/tool_lay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_35" />
+
+        <ImageView
+            android:id="@+id/theme_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_80"
+           />
+
+        <nithra.word.game.onepiconeword.extra.MyTextView
+            android:id="@+id/theme_count"
+            android:layout_width="@dimen/wh_45"
+            android:layout_height="@dimen/wh_45"
+            android:background="@drawable/circle"
+            android:text="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="@dimen/txt_16"
+            android:textColor="#fa0303"
+            android:layout_below="@+id/theme_img"
+            android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

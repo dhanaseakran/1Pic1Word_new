@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top123"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/frame_first_height"
+            android:background="#333149"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/noti_lay"
+                android:layout_width="@dimen/crbut_hight"
+                android:layout_height="@dimen/crbut_hight"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/iconbell">
+
+                <nithra.word.game.onepiconeword.extra.MyTextView
+                    android:id="@+id/noti_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_round"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="2"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/info_margin_top"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/rty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/frame_liner_right"
+                android:text="1 PIC 1 WORD"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/privacy"
+                android:layout_width="@dimen/crbut_hight"
+                android:layout_height="@dimen/crbut_hight"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/pract_pading"
+                android:layout_toLeftOf="@+id/DT_lay"
+                android:background="@drawable/privacy_policy"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/DT_lay"
+                android:layout_width="@dimen/crbut_hight"
+                android:layout_height="@dimen/crbut_hight"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/feed"
+                android:background="@drawable/calendar"
+                android:visibility="gone">
+
+                <nithra.word.game.onepiconeword.extra.MyTextView
+                    android:id="@+id/DT_noti_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_round"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text=""
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/feed"
+                android:layout_width="@dimen/crbut_hight"
+                android:layout_height="@dimen/crbut_hight"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/pract_pading"
+                android:layout_toLeftOf="@+id/noti_lay"
+                android:background="@drawable/feedback"
+                android:orientation="vertical" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/versition_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/lrtbp_5"
+                android:text="V -1.1"
+                android:textColor="#fff"
+                android:textSize="@dimen/txt_18" />
+
+            <ImageView
+                android:id="@+id/play_btn_img"
+                android:layout_width="@dimen/wh_240"
+                android:layout_height="@dimen/wh_120"
+                android:layout_centerInParent="true"
+                android:background="@drawable/play_button_red" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/play_btn_img"
+                android:layout_marginTop="@dimen/lrtbp_15">
+
+                <RelativeLayout
+                    android:id="@+id/leader_board_lay"
+                    android:layout_width="@dimen/wh_150"
+                    android:layout_height="@dimen/wh_45"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/dia_done">
+
+                    <ImageView
+                        android:id="@+id/leader_img"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/leader_icon" />
+
+                    <nithra.word.game.onepiconeword.extra.MyTextView
+                        android:id="@+id/leader_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:layout_toRightOf="@+id/leader_img"
+                        android:text="POINTS"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/txt_16" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/achivement_lay"
+                    android:layout_width="@dimen/wh_150"
+                    android:layout_height="@dimen/wh_45"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/dia_done">
+
+                    <ImageView
+                        android:id="@+id/achive_img"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/achivement_icon" />
+
+                    <nithra.word.game.onepiconeword.extra.MyTextView
+                        android:id="@+id/achive_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:layout_toLeftOf="@+id/achive_img"
+                        android:text="ACHIVEMENT"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/txt_12" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

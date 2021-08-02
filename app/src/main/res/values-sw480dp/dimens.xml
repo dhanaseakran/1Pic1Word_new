@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <string name="screen_identification">sw480dp</string>
+      <!-- design radious -->
+      <dimen name="radious">8dp</dimen>
+       <dimen name="storek">3dp</dimen>
+    
+    <!--1.main screen  -->
+    <!--1.1 title  -->
+    <dimen name="title_height">60dp</dimen>
+    <dimen name="title_textsize">30dp</dimen>
+    <!--1.2 center frame  -->
+    
+    <dimen name="frame_liner_top">40dp</dimen>
+    <dimen name="frame_liner_right">32dp</dimen>
+    <dimen name="frame_liner_textsize">27dp</dimen>
+    <dimen name="frame_first_height">80dp</dimen>
+    <dimen name="frame_two_with">152dp</dimen>
+    <dimen name="frame_three_with">300dp</dimen>
+    
+    <dimen name="title_height1">50dp</dimen>
+    
+     <!--last frame msg,share  -->
+     <dimen name="msg_width">55dp</dimen>
+     <dimen name="msg_pading_one">37dp</dimen>
+     <dimen name="msg_pading_two">60dp</dimen>
+     
+      <!-- listview settings -->
+     <dimen name="list_width">75dp</dimen>
+     <dimen name="list_width1">35dp</dimen>
+      <dimen name="list_first">9dp</dimen>
+     <dimen name="list_all">6dp</dimen>
+     
+     <!-- practice -->
+     <dimen name="next_with">30dp</dimen>
+      <dimen name="pract_hight">60dp</dimen>
+     <dimen name="pract_witht">215dp</dimen>
+     <dimen name="pract_pading">12dp</dimen>
+     <dimen name="pract_txt1">25dp</dimen>
+     <dimen name="co_with">145dp</dimen>
+     
+               <!-- score -->
+      <dimen name="score_with">320dp</dimen>
+      <dimen name="score_with1">100dp</dimen>
+      <dimen name="score_liner_top">13dp</dimen>
+      
+        <!-- random ques  -->
+      <dimen name="random_with">290dp</dimen>
+      <dimen name="random_height">40dp</dimen>
+      <dimen name="random_txtsize"> 21dp</dimen>
+      <dimen name="randomcheck_wiith">60dp</dimen>
+       <dimen name="check_pix">4dp</dimen>
+       <dimen name="check_Width">45dp</dimen>
+       <dimen name="check_Height">45dp</dimen>
+       
+             <!--progress  -->
+       <dimen name="pro_with">300dp</dimen>
+       <dimen name="pro_height">27dip</dimen>
+       <dimen name="pro1_height">55dip</dimen>
+       <dimen name="pro_txtsize">24dp</dimen>
+       <dimen name="pro1_with">120dp</dimen>
+       <dimen name="pro2_with">89dp</dimen>
+       <dimen name="pro_right">70dp</dimen>
+        <dimen name="pro_tum">5dp</dimen>
+        
+        <dimen name="li_with">300dp</dimen>
+        
+        
+            <!-- feed back --> 
+               <dimen name="maindia_width">350dp</dimen>
+               <dimen name="maindia_hight">300dp</dimen>
+                <dimen name="maindia_txtsize">27dp</dimen>
+               <dimen name="maindia_bottom">20dp</dimen>
+                <dimen name="maindia_butwith">100dp</dimen>
+               <dimen name="maindia_buthight">50dp</dimen>
+               
+               
+               
+                <dimen name="maindia_width1">400dp</dimen>
+               <dimen name="maindia_hight1">330dp</dimen>
+                <dimen name="maindia_txtsize1">22dp</dimen>
+               <dimen name="maindia_bottom1">10dp</dimen>
+                 <dimen name="maindia_butwith1">175dp</dimen>
+               <dimen name="maindia_buthight1">55dp</dimen>
+               
+               <dimen name="scroll_height">600dp</dimen>
+               
+               
+               <!-- modifi -->
+          <dimen name="mo_width">105dp</dimen>
+           <dimen name="mo_width1">255dp</dimen>
+           
+            <dimen name="action_width2">260dp</dimen>
+            <dimen name="action_width">60dp</dimen>
+          <dimen name="action_width1">40dp</dimen>
+          <dimen name="action_pading">17dp</dimen>
+    <dimen name="llsize">8dp</dimen>
+</resources>

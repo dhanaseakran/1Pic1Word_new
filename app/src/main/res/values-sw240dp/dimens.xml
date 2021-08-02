@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- sw240dp -->
+
+    <dimen name="screen_identification_font_size">50dp</dimen>
+    <dimen name="icon_margin_top">4dp</dimen>
+    <dimen name="list_view_marig_left">3dp</dimen>
+    <dimen name="home_screen_icon_width">43dp</dimen>
+    <dimen name="home_screen_icon_height">43dp</dimen>
+    <dimen name="home_screen_icon_rightsietablelayout_margin_left">10dp</dimen>
+    <dimen name="home_screen_topic_heading_text_size">13dp</dimen>
+    <dimen name="home_screen_topic_heading_text_size1">15dp</dimen>
+    <dimen name="home_screen_topic_heading_text_size2">17dp</dimen>
+    <dimen name="home_screen_topic_heading_text_size3">21dp</dimen>
+    <dimen name="home_screen_topic_heading_text_size_new">18dp</dimen>
+    <dimen name="home_screen_topic_status_text_size">12dp</dimen>
+    <dimen name="home_screen_topic_substatus_mraginleft1">84dp</dimen>
+    <dimen name="home_screen_topic_substatus_mraginleft2">163dp</dimen>
+    <dimen name="question_screen_icon_width">46dp</dimen>
+    <dimen name="question_screen_icon_height">46dp</dimen>
+    <dimen name="alert_heading">20dp</dimen>
+    <dimen name="alert_message">14dp</dimen>
+    <dimen name="alert_button">14dp</dimen>
+    <dimen name="first_screen_title">27dp</dimen>
+    <dimen name="first_start_button_margin_bottom">40dp</dimen>
+    <dimen name="first_start_button_margin_top">22dp</dimen>
+    <dimen name="viewline">2dp</dimen>
+    <dimen name="home_screen_margin_top">5dp</dimen>
+    <dimen name="croll_app_width">280dp</dimen>
+    <dimen name="croll_app_height">105dp</dimen>
+    <dimen name="croll_insbut_width">80dp</dimen>
+    <dimen name="croll_insbut_height">35dp</dimen>
+     <dimen name="but_height">55dp</dimen>
+
+    <!-- About us -->
+    <dimen name="heading_marginleft">13dp</dimen>
+    <dimen name="heading_marginright">13dp</dimen>
+    <dimen name="heading_margintop">8dp</dimen>
+    <dimen name="heading_font_size">17dp</dimen>
+    <dimen name="info_margin_left">8dp</dimen>
+    <dimen name="info_margin_right">8dp</dimen>
+    <dimen name="info_margin_bottom">8dp</dimen>
+    <dimen name="info_margin_top">8dp</dimen>
+    <dimen name="info_margin_step_top">4dp</dimen>
+    <dimen name="info_version_name_font_size">13dp</dimen>
+    <dimen name="info_company_name_font_size">14dp</dimen>
+    <dimen name="info_company_more_detail_font_size">12dp</dimen>
+    
+    
+    <dimen name="lrtbp_5">5dp</dimen>  
+     <dimen name="lrtbp_10">10dp</dimen> 
+      <dimen name="lrtbp_15">15dp</dimen> 
+     <dimen name="lrtbp_20">20dp</dimen> 
+      <dimen name="lrtbp_25">25dp</dimen> 
+      
+       <dimen name="lrtbp_30">30dp</dimen> 
+     
+         <dimen name="wh_1">1dp</dimen> 
+         <dimen name="wh_2">2dp</dimen> 
+         
+         <dimen name="txt_10">10dp</dimen>
+          <dimen name="txt_12">12dp</dimen>
+         <dimen name="txt_16">16dp</dimen>
+          <dimen name="txt_18">18dp</dimen>
+           <dimen name="txt_20">20dp</dimen>
+            <dimen name="txt_22">22dp</dimen>
+           <dimen name="txt_24">24dp</dimen>
+           <dimen name="txt_25">25dp</dimen>
+           
+            <dimen name="wh_40">40dp</dimen>   
+         <dimen name="wh_45">45dp</dimen>   
+         <dimen name="wh_50">50dp</dimen>  
+          <dimen name="wh_60">80dp</dimen>  
+           <dimen name="wh_65">65dp</dimen>  
+           <dimen name="wh_80">100dp</dimen>  
+            <dimen name="wh_150">150dp</dimen>  
+            <dimen name="wh_300">300dp</dimen>
+           <dimen name="wh_240">240dp</dimen>  
+            <dimen name="wh_120">120dp</dimen>  
+         <dimen name="wh_20">20dp</dimen>
+         <dimen name="wh_70">75dp</dimen>
+         <dimen name="wh_180">180dp</dimen>
+
+    <dimen name="wh_350">380dp</dimen>
+
+</resources>

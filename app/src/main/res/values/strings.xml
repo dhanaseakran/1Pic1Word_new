@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">1pic 1word</string>
+    <string name="privacy_policy"><u>* PRIVACY POLICY</u></string>
+
+    <string name="app_id_lead">1006590238061</string>
+
+    <string name="leaderboard_high_score">CgkI7brQ66UdEAIQAA</string>
+
+    <string name="signin_other_error">There was an issue with sign in. Please try again later.</string>
+    <string name="signin_failure">There was an issue with sign in. Please try again later.</string>
+
+
+
+    <string name="solve_50">CgkI7brQ66UdEAIQAg</string>
+    <string name="solve_100">CgkI7brQ66UdEAIQAw</string>
+    <string name="solve_200">CgkI7brQ66UdEAIQBA</string>
+    <string name="solve_500">CgkI7brQ66UdEAIQBQ</string>
+    <string name="solve_750">CgkI7brQ66UdEAIQBg</string>
+    <string name="solve_1000">CgkI7brQ66UdEAIQBw</string>
+    <string name="solve_2000">CgkI7brQ66UdEAIQCA</string>
+    <string name="solve_3000">CgkI7brQ66UdEAIQCQ</string>
+    <string name="solve_4000">CgkI7brQ66UdEAIQCg</string>
+    <string name="solve_5000">CgkI7brQ66UdEAIQCw</string>
+    <string name="points_1000">CgkI7brQ66UdEAIQDA</string>
+    <string name="points_2000">CgkI7brQ66UdEAIQDQ</string>
+    <string name="points_5000">CgkI7brQ66UdEAIQDg</string>
+    <string name="points_10000">CgkI7brQ66UdEAIQDw</string>
+    <string name="points_20000">CgkI7brQ66UdEAIQEA</string>
+    <string name="wh_75">CgkI7brQ66UdEAIQEQ</string>
+    <string name="wh_150">CgkI7brQ66UdEAIQEg</string>
+    <string name="wh_300">CgkI7brQ66UdEAIQEw</string>
+    <string name="wh_500">CgkI7brQ66UdEAIQFA</string>
+    <string name="wh_1000">CgkI7brQ66UdEAIQFQ</string>
+    <string name="DT_25">CgkI7brQ66UdEAIQFg</string>
+    <string name="DT_50">CgkI7brQ66UdEAIQFw</string>
+    <string name="DT_100">CgkI7brQ66UdEAIQGA</string>
+    <string name="CWH_50">CgkI7brQ66UdEAIQGQ</string>
+    <string name="CWH_75">CgkI7brQ66UdEAIQGg</string>
+    <string name="CWH_150">CgkI7brQ66UdEAIQGw</string>
+
+</resources>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 2.7 TO 4.0 -->
+
+<resources>
+
+    <string name="screen_identification">sw240dp</string>
+
+    <!-- About us -->
+    <dimen name="heading_marginleft">15dp</dimen>
+    <dimen name="heading_marginright">15dp</dimen>
+    <dimen name="heading_margintop">6dp</dimen>
+    <dimen name="heading_font_size">15dp</dimen>
+    <dimen name="info_margin_left">6dp</dimen>
+    <dimen name="info_margin_right">6dp</dimen>
+    <dimen name="info_margin_bottom">6dp</dimen>
+    <dimen name="info_margin_top">6dp</dimen>
+    <dimen name="info_margin_step_top">3dp</dimen>
+    <dimen name="info_version_name_font_size">8dp</dimen>
+    <dimen name="info_company_name_font_size">11dp</dimen>
+    <dimen name="info_company_more_detail_font_size">9dp</dimen>
+    <dimen name="question_screen_icon_width">40dp</dimen>
+    <dimen name="question_screen_icon_height">40dp</dimen>
+
+    <!-- play button -->
+
+    <dimen name="palybut_width">150dp</dimen>
+    <dimen name="palybut_hight">55dp</dimen>
+    <dimen name="palybut_bottom">20dp</dimen>
+
+    <!-- new game -->
+    <dimen name="newbut_width">200dp</dimen>
+    <dimen name="newbut_hight">50dp</dimen>
+
+    <!-- resume game -->
+    <dimen name="resumebut_width">200dp</dimen>
+    <dimen name="resumebut_hight">50dp</dimen>
+    <dimen name="resumebut_top">100dp</dimen>
+    <dimen name="resumebut_txtsize">20dp</dimen>
+
+    <!-- btn share -->
+    <dimen name="sharebut_width">45dp</dimen>
+    <dimen name="sharebut_hight">45dp</dimen>
+
+    <!-- btna three -->
+    <dimen name="btna_width">42dp</dimen>
+    <dimen name="btna_hight">45dp</dimen>
+    <dimen name="btna_txtsize">32dp</dimen>
+    <dimen name="btna_top">80dp</dimen>
+    <dimen name="btna_top1">137dp</dimen>
+    <dimen name="btna_right">130dp</dimen>
+    <dimen name="btna_right1">78dp</dimen>
+    <dimen name="btna_right2">26dp</dimen>
+    <dimen name="edta_top">20dp</dimen>
+    <dimen name="edta_right">47dp</dimen>
+    <dimen name="btna_rad">5dp</dimen>
+
+    <!-- img -->
+    <dimen name="img_width">150dp</dimen>
+    <dimen name="img_hight">150dp</dimen>
+    <dimen name="img_bottom">95dp</dimen>
+
+    <!-- imagesound -->
+    <dimen name="imagesound_width">40dp</dimen>
+    <dimen name="imagesound_hight">30dp</dimen>
+    <dimen name="imagesound_bottom">150dp</dimen>
+
+    <!-- info -->
+    <dimen name="info_width">55dp</dimen>
+    <dimen name="info_hight">50dp</dimen>
+    <!-- setting -->
+    <dimen name="setting_width">45dp</dimen>
+    <dimen name="setting_hight">45dp</dimen>
+    <!-- on/off -->
+    <dimen name="sonoff_width">60dp</dimen>
+    <dimen name="sonoff_hight">25dp</dimen>
+    <!-- btnhint -->
+    <dimen name="hint_width">80dp</dimen>
+    <dimen name="hint_hight">30dp</dimen>
+    <dimen name="hint_txtsize">18dp</dimen>
+
+    <!-- frame hight -->
+    <dimen name="frame_hight">60dp</dimen>
+
+    <!-- txt level -->
+    <dimen name="level_width">100dp</dimen>
+    <dimen name="level_hight">40dp</dimen>
+    <dimen name="level_right">60dp</dimen>
+    <dimen name="level_left">30dp</dimen>
+
+    <!-- share -->
+    <dimen name="share_left">90dp</dimen>
+
+    <!-- btna four -->
+    <dimen name="btna1_width">50dp</dimen>
+    <dimen name="btna1_hight">50dp</dimen>
+    <dimen name="btna1_txtsize">20dp</dimen>
+    <dimen name="btna1_right">70dp</dimen>
+    <dimen name="btna1_left">24dp</dimen>
+
+    <!-- btna five -->
+    <dimen name="btna2_width">50dp</dimen>
+    <dimen name="btna2_hight">50dp</dimen>
+    <dimen name="btna2_txtsize">18dp</dimen>
+    <dimen name="btna2_right">90dp</dimen>
+    <dimen name="btna2_left">45dp</dimen>
+
+    <!-- btna six -->
+    <dimen name="btna3_width">45dp</dimen>
+    <dimen name="btna3_hight">45dp</dimen>
+    <dimen name="btna3_txtsize">18dp</dimen>
+    <dimen name="btna3_right1">115dp</dimen>
+    <dimen name="btna3_right2">68dp</dimen>
+    <dimen name="btna3_right3">23dp</dimen>
+
+    <!-- btna seven -->
+    <dimen name="btna4_width">40dp</dimen>
+    <dimen name="btna4_hight">42dp</dimen>
+    <dimen name="btna4_txtsize">18dp</dimen>
+    <dimen name="btna4_right1">133dp</dimen>
+    <dimen name="btna4_right2">89dp</dimen>
+    <dimen name="btna4_right3">44dp</dimen>
+
+    <!-- stage -->
+    <dimen name="stage_width">190dp</dimen>
+    <dimen name="stage_hight">45dp</dimen>
+    <dimen name="stage_bottom1">125dp</dimen>
+    <dimen name="stage_bottom2">63dp</dimen>
+    <dimen name="stage_right">10dp</dimen>
+    <dimen name="stage_txtsize">20dp</dimen>
+    <dimen name="tick_width">40dp</dimen>
+    <dimen name="tick_hight">40dp</dimen>
+    <dimen name="tick_left">60dp</dimen>
+    <dimen name="txtscore_left">120dp</dimen>
+    <dimen name="stageframe_hight">50dp</dimen>
+    <dimen name="stageinfo_width">45dp</dimen>
+    <dimen name="stageinfo_hight">45dp</dimen>
+
+    <!-- six scoreboard -->
+    <dimen name="scoreboard_hight">50dp</dimen>
+    <dimen name="scoreboard_top">50dp</dimen>
+    <dimen name="scorenext_txtsize">18dp</dimen>
+    <dimen name="scorenext_width">120dp</dimen>
+    <dimen name="scorenext_hight">45dp</dimen>
+    <dimen name="scorenext_bottom">50dp</dimen>
+    <dimen name="scorenext_bottom1">60dp</dimen>
+    <dimen name="scorenext_bottom2">60dp</dimen>
+
+    <!-- dialog sound on/off -->
+    <dimen name="dialog_width">230dp</dimen>
+    <dimen name="dialog_hight">200dp</dimen>
+    <dimen name="tog_hight">30dp</dimen>
+    <dimen name="tog_width">80dp</dimen>
+    <dimen name="tog_txtsize">17dp</dimen>
+    <dimen name="tog_txtbottom">30dp</dimen>
+    <dimen name="tog_txtsize1">20dp</dimen>
+    <dimen name="tog_top">20dp</dimen>
+    <dimen name="tog_right1">60dp</dimen>
+    <dimen name="tog_right2">70dp</dimen>
+    <dimen name="dia_hight">235dp</dimen>
+    <dimen name="diacan_width">40dp</dimen>
+    <dimen name="diacan_hight">35dp</dimen>
+    <dimen name="tog_txtbottom1">90dp</dimen>
+    <dimen name="tog_top1">45dp</dimen>
+
+    <!-- dialog Hint -->
+    <dimen name="dialog1_width">250dp</dimen>
+    <dimen name="dialog1_hight">250dp</dimen>
+    <dimen name="lethint_width">220dp</dimen>
+    <dimen name="lethint_hight">45dp</dimen>
+    <dimen name="lethint_right1">25dp</dimen>
+    <dimen name="lethint_right2">55dp</dimen>
+    <dimen name="souhint_width">60dp</dimen>
+    <dimen name="txthint_hight">35dp</dimen>
+    <dimen name="txthint_top">40dp</dimen>
+    <dimen name="can_bottom">20dp</dimen>
+    <dimen name="can_bottom1">45dp</dimen>
+    <dimen name="dia1_hight">275dp</dimen>
+    <dimen name="diacan1_width">40dp</dimen>
+    <dimen name="diacan1_hight">35dp</dimen>
+
+    <!-- coin board -->
+    <dimen name="bcoin_width">80dp</dimen>
+    <dimen name="bcoin_hight">80dp</dimen>
+    <dimen name="bcoin_right1">80dp</dimen>
+    <dimen name="bcoin_right2">40dp</dimen>
+    <dimen name="bcoin_top">70dp</dimen>
+    <dimen name="bcoin_txtsize">35dp</dimen>
+    <dimen name="bcoin_txtsize1">25dp</dimen>
+    <dimen name="bcoin_bottom">35dp</dimen>
+    <dimen name="bcoin_top1">60dp</dimen>
+    <dimen name="bcoin_t1">40dp</dimen>
+    <dimen name="bcoin_t2">110dp</dimen>
+    <dimen name="bcoin_txtsize2">17dp</dimen>
+    <dimen name="bcoinbut_width">130dp</dimen>
+    <dimen name="bcoinbut_hight">50dp</dimen>
+    <dimen name="bcoinbut_bottom">5dp</dimen>
+
+    <!-- coin store -->
+    <dimen name="cslay_width">250dp</dimen>
+    <dimen name="cslay_hight">250dp</dimen>
+    <dimen name="can3_width">40dp</dimen>
+    <dimen name="can3_hight">40dp</dimen>
+    <dimen name="cslaybut_width">230dp</dimen>
+    <dimen name="cslaybut_hight">50dp</dimen>
+    <dimen name="cslaybut_top">40dp</dimen>
+    <dimen name="cslaybut_txtsize">20dp</dimen>
+    <dimen name="fb_width">40dp</dimen>
+    <dimen name="fb_hight">40dp</dimen>
+    <dimen name="fb_bottom">65dp</dimen>
+    <dimen name="fb_right">50dp</dimen>
+    <dimen name="rate_width">70dp</dimen>
+    <dimen name="rate_hight">40dp</dimen>
+    <dimen name="rate_txtsize">13dp</dimen>
+    <dimen name="rateview_with">1dp</dimen>
+    <dimen name="rate_bottom">20dp</dimen>
+    <dimen name="rate_left">5dp</dimen>
+    <dimen name="wg_width">220dp</dimen>
+    <dimen name="wg_hight">60dp</dimen>
+    <dimen name="wg_bottom">150dp</dimen>
+    <dimen name="wg_bottom1">50dp</dimen>
+    <dimen name="dia_txt">16dp</dimen>
+    <dimen name="crlay_width">250dp</dimen>
+    <dimen name="crlay_hight">270dp</dimen>
+    <dimen name="crimg_width">60dp</dimen>
+    <dimen name="crimg_hight">60dp</dimen>
+    <dimen name="crtxt_hight">140dp</dimen>
+    <dimen name="crtxt_size">15dp</dimen>
+    <dimen name="crbut_width">80dp</dimen>
+    <dimen name="crbut_hight">35dp</dimen>
+    <dimen name="crbut_bottom">7dp</dimen>
+    <dimen name="crbut_left">15dp</dimen>
+
+
+    <!-- 1.1 title -->
+    <dimen name="title_height">45dp</dimen>
+    <dimen name="title_textsize">18dp</dimen>
+    <!-- 1.2 center frame -->
+    <dimen name="frame_width">325dp</dimen>
+    <dimen name="frame_liner_top">20dp</dimen>
+    <dimen name="frame_liner_right">15dp</dimen>
+    <dimen name="frame_liner_textsize">20dp</dimen>
+    <dimen name="frame_first_height">55dp</dimen>
+    <dimen name="frame_two_with">102dp</dimen>
+    <dimen name="frame_three_with">200dp</dimen>
+    <dimen name="title_height1">35dp</dimen>
+  
+    <!-- listview settings -->
+  
+    <dimen name="list_all">3dp</dimen>
+    <!-- practice -->
+    <dimen name="next_with">20dp</dimen>
+    <dimen name="pract_hight">42dp</dimen>
+    <dimen name="pract_witht">150dp</dimen>
+    <dimen name="pract_pading">5dp</dimen>
+    <dimen name="pract_txt1">17dp</dimen>
+    <dimen name="co_with">100dp</dimen>
+  
+    <!-- random ques -->
+    <dimen name="check_pix">2dp</dimen>
+   
+    <!-- progress -->
+    <dimen name="pro_with">200dp</dimen>
+    <dimen name="pro_height">15dip</dimen>
+    <dimen name="pro1_height">30dip</dimen>
+    <dimen name="pro_txtsize"> 15dp</dimen>
+    <dimen name="pro1_with">80dp</dimen>
+    <dimen name="pro2_with">60dp</dimen>
+    <dimen name="pro_right">50dp</dimen>
+    <dimen name="pro_tum">3dp</dimen>
+    <dimen name="li_with">200dp</dimen>
+    <!-- feed back -->
+    <dimen name="maindia_txtsize1">16dp</dimen>
+    <dimen name="maindia_butwith1">100dp</dimen>
+  
+
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/txt_10"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_70"
+            android:background="@drawable/dia_background_top">
+
+            <ImageView
+                android:id="@+id/never_close_img"
+                android:layout_width="@dimen/wh_35"
+                android:layout_height="@dimen/wh_35"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:background="@drawable/remove_letter_icon" />
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/never_title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/wh_35"
+                android:text="DELETE EXTRA LETTER"
+                android:textColor="#000"
+                android:textSize="@dimen/txt_20" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_300"
+            android:background="@drawable/dia_background_bottom">
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/never_content_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/lrtbp_15"
+                android:gravity="center_horizontal"
+                android:text="Delete some letter which are not part of sollution \n 100 coins will be reduced"
+                android:textColor="#000"
+                android:textSize="@dimen/txt_18" />
+
+            <CheckBox
+                android:id="@+id/never_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/never_content_txt"
+                android:layout_margin="@dimen/lrtbp_15"
+                android:buttonTint="#585a5b"
+                android:text="Never ask again"
+                android:textColor="#e71616" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/wh_50"
+                android:layout_marginLeft="@dimen/txt_12"
+                android:layout_marginRight="@dimen/txt_12"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dia_never_done_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wh_40"
+                    android:layout_margin="@dimen/lrtbp_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/dia_done"
+                    android:gravity="center"
+                    android:text="YES"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/txt_16" />
+
+                <TextView
+                    android:id="@+id/dia_never_cancel_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wh_40"
+                    android:layout_margin="@dimen/lrtbp_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/dia_cencel"
+                    android:gravity="center"
+                    android:text="NO"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/txt_16" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

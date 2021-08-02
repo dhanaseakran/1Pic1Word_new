@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wh_350"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/txt_12"
+        android:layout_marginRight="@dimen/txt_12"
+        android:background="@drawable/dia_background">
+
+        <ImageView
+            android:id="@+id/ssss"
+            android:layout_width="@dimen/wh_35"
+            android:layout_height="@dimen/wh_35"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:background="@drawable/remove_letter_icon" />
+
+        <nithra.word.game.onepiconeword.extra.MyTextView
+            android:id="@+id/wpro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/wh_40"
+            android:text="DELETE EXTRA LETTER"
+            android:textColor="#000"
+            android:textSize="@dimen/txt_20" />
+
+
+        <nithra.word.game.onepiconeword.extra.MyTextView
+            android:id="@+id/txt_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wpro"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/lrtbp_15"
+            android:gravity="center_horizontal"
+            android:text="Delete some letter which are not part of sollution \n 100 coins will be reduced"
+            android:textColor="#000"
+            android:textSize="@dimen/txt_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/wh_50"
+            android:layout_marginLeft="@dimen/txt_12"
+            android:layout_marginRight="@dimen/txt_12"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wh_40"
+                android:layout_margin="@dimen/lrtbp_5"
+                android:layout_weight="1"
+                android:background="@drawable/dia_done"
+                android:gravity="center"
+                android:text="YES"
+                android:textColor="#fff"
+                android:textSize="@dimen/txt_16" />
+
+            <TextView
+                android:id="@+id/no"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wh_40"
+                android:layout_margin="@dimen/lrtbp_5"
+                android:layout_weight="1"
+                android:background="@drawable/dia_cencel"
+                android:gravity="center"
+                android:text="NO"
+                android:textColor="#fff"
+                android:textSize="@dimen/txt_16" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!--<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333149"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            card_view:cardBackgroundColor="#333149">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/frame_liner_right"
+                android:background="@drawable/dialog_heading"
+                android:gravity="center"
+                android:padding="@dimen/pract_pading">
+
+                <TextView
+                    android:id="@+id/wpro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:padding="@dimen/next_with"
+                    android:text="GET CREDITS"
+                    android:textColor="#D76438"
+                    android:textSize="@dimen/pro1_height" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/switchword"
+                android:gravity="center"
+                android:padding="@dimen/pract_pading"
+                android:text="Below sharing provides you additional coins"
+                android:textColor="#fff"
+                android:textSize="@dimen/heading_font_size" />
+
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pract_pading"
+                android:layout_marginLeft="@dimen/frame_liner_right"
+                android:layout_marginRight="@dimen/frame_liner_right"
+                android:layout_marginTop="@dimen/frame_liner_right"
+                android:background="@drawable/kid_green"
+                android:gravity="center"
+                android:paddingBottom="@dimen/crtxt_size"
+                android:paddingLeft="@dimen/frame_liner_top"
+                android:paddingRight="@dimen/frame_liner_top"
+                android:paddingTop="@dimen/crtxt_size"
+                android:text="Yes"
+                android:textColor="#fff"
+                android:textSize="@dimen/heading_font_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/frame_liner_right"
+            android:layout_marginTop="@dimen/pract_pading"
+            android:background="@drawable/dialog_cancel"
+            android:gravity="center"
+            android:paddingBottom="@dimen/crtxt_size"
+            android:paddingLeft="@dimen/frame_liner_top"
+            android:paddingRight="@dimen/frame_liner_top"
+            android:paddingTop="@dimen/crtxt_size"
+            android:text="       No       "
+            android:textColor="#fff"
+            android:textSize="@dimen/heading_font_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000">
+
+        <ImageButton
+            android:id="@+id/ssss"
+            android:layout_width="@dimen/tog_hight"
+            android:layout_height="@dimen/tog_hight"
+            android:layout_alignParentRight="true"
+            android:background="#F96E71"
+            android:src="@drawable/cancel_kid" />
+    </RelativeLayout>
+</RelativeLayout>-->
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/txt_10"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_70"
+            android:background="@drawable/dia_background_top">
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/access_title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/lrtbp_15"
+                android:text="ONE PIC ONE WORD"
+                android:textColor="#000"
+                android:textSize="@dimen/txt_18" />
+
+            <ImageView
+                android:id="@+id/access_close_img"
+                android:layout_width="@dimen/wh_35"
+                android:layout_height="@dimen/wh_35"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/txt_10"
+                android:background="@drawable/remove_letter_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_180"
+            android:background="@drawable/dia_background_bottom">
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/access_content_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/txt_10"
+                android:gravity="center_horizontal"
+                android:text="Allow storage permission to ask help from your friends"
+                android:textColor="#000"
+                android:textSize="@dimen/txt_16" />
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/dia_done_access"
+                android:layout_width="@dimen/wh_80"
+                android:layout_height="@dimen/wh_40"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/txt_25"
+                android:background="@drawable/dia_done"
+                android:gravity="center"
+                android:text="Continue"
+                android:textColor="#fff"
+                android:textSize="@dimen/txt_16" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

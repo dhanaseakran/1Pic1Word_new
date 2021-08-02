@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wh_45"
+        android:background="#333149">
+
+        <nithra.word.game.onepiconeword.extra.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="SELECT THEME"
+            android:textColor="#fff"
+            android:textSize="@dimen/txt_20" />
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/theme_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3" />
+
+
+</LinearLayout>

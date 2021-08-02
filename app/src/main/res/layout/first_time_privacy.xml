@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/txt_10"
+        android:background="@drawable/rectangle_1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo_img"
+                android:layout_width="@dimen/wh_45"
+                android:layout_height="@dimen/wh_45"
+                android:layout_margin="@dimen/txt_10"
+                android:background="@drawable/app_logo" />
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/logo_img"
+                android:text="PRIVACY &amp; TERMS"
+                android:textColor="#000"
+                android:textSize="@dimen/txt_16" />
+
+        </RelativeLayout>
+
+        <nithra.word.game.onepiconeword.extra.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/txt_10"
+            android:padding="@dimen/lrtbp_5"
+            android:text="Thanks for downloading ONE PIC ONE WORD"
+            android:textColor="#0443e4"
+            android:textSize="@dimen/txt_12" />
+
+        <nithra.word.game.onepiconeword.extra.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/txt_10"
+            android:padding="@dimen/lrtbp_5"
+            android:text="By clicking privacy tab you can read our privacy policy and agree to the terms of privacy policy to continue using ONE PIC ONE WORD."
+            android:textColor="#000"
+            android:textSize="@dimen/txt_12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/privacy_txt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wh_45"
+                android:background="@drawable/dia_cencel"
+                android:gravity="center"
+                android:text="PRIVACY POLICY"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/txt_10"
+                android:textSize="@dimen/txt_12" />
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/agree_txt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/wh_45"
+                android:background="@drawable/dia_done"
+                android:gravity="center"
+                android:text="ACCEPT &amp;CONTINUE"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/txt_10"
+                android:textSize="@dimen/txt_10" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

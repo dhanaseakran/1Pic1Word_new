@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8555"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lrtbp_5"
+        android:background="#FFD88F"
+        android:padding="@dimen/lrtbp_10">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/head_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/lrtbp_5"
+                android:layout_marginLeft="@dimen/lrtbp_5"
+                android:layout_marginRight="@dimen/lrtbp_5"
+                android:layout_marginTop="@dimen/lrtbp_25"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@android:drawable/ic_dialog_alert"
+                android:gravity="center|left"
+                android:padding="@dimen/lrtbp_10"
+                android:text="  Delete All"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/lrtbp_10"
+                android:text="Do you want to delete all notifications?"
+                android:textColor="#000"
+                android:textSize="@dimen/txt_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/lrtbp_10"
+                    android:layout_weight="0.33"
+                    android:background="#ED2F59"
+                    android:paddingBottom="@dimen/lrtbp_10"
+                    android:paddingTop="@dimen/lrtbp_10"
+                    android:text="  Yes  "
+                    android:textColor="#fff"
+                    android:textSize="@dimen/txt_16" />
+
+                <Button
+                    android:id="@+id/btnok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/lrtbp_10"
+                    android:layout_weight="0.33"
+                    android:background="#ED2F59"
+                    android:paddingBottom="@dimen/lrtbp_10"
+                    android:paddingTop="@dimen/lrtbp_10"
+                    android:text="  No  "
+                    android:textColor="#fff"
+                    android:textSize="@dimen/txt_16" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#80000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#333149"
+        android:gravity="center"
+        android:layout_margin="@dimen/txt_10"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            card_view:cardBackgroundColor="#333149">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/frame_liner_right"
+                android:gravity="center">
+
+                <nithra.word.game.onepiconeword.extra.MyTextView
+                    android:id="@+id/wpro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:padding="@dimen/frame_liner_right"
+                    android:text="Send your feedback or suggestions to improve this app"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/heading_font_size" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/EmaileditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_50"
+            android:layout_below="@+id/txt321"
+            android:layout_margin="@dimen/txt_10"
+            android:background="#fff"
+            android:hint="Please enter your Email ID"
+            android:textColor="#000"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHint="#a3a0a0" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/txt_10"
+            android:gravity="left"
+            android:hint="Please enter your feedback"
+            android:minLines="6"
+            android:background="#fff"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000"
+            android:textColorHint="#a3a0a0" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <nithra.word.game.onepiconeword.extra.MyTextView
+                android:id="@+id/privacy_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/privacy_policy"
+                android:textColor="#ff0101"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+
+        <nithra.word.game.onepiconeword.extra.MyTextView
+            android:id="@+id/yes"
+            android:layout_width="@dimen/wh_180"
+            android:layout_height="@dimen/wh_45"
+            android:layout_marginBottom="@dimen/frame_liner_right"
+            android:layout_marginTop="@dimen/pract_pading"
+            android:background="@drawable/dia_done"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textSize="@dimen/heading_font_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/ssss"
+            android:layout_width="@dimen/tog_hight"
+            android:layout_height="@dimen/tog_hight"
+            android:layout_alignParentRight="true"
+            android:background="#F96E71"
+            android:src="@drawable/dia_cencel" />
+    </RelativeLayout>
+</RelativeLayout>

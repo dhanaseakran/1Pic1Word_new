@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_noti__mark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/main_background">
+
+    <RelativeLayout
+        android:id="@+id/tool_lay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wh_50"
+        android:background="#333149">
+
+        <TextView
+            android:id="@+id/txtaddtopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/txt_10"
+            android:text="Notifications"
+            android:textColor="#fff"
+            android:textSize="@dimen/txt_16"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_width="@dimen/wh_35"
+            android:layout_height="@dimen/wh_35"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/pract_pading"
+            android:background="@drawable/go_back" />
+
+        <ImageView
+            android:id="@+id/setting_img"
+            android:layout_width="@dimen/wh_35"
+            android:layout_height="@dimen/wh_35"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/pract_pading"
+            android:background="@drawable/setting_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/deleteall"
+            android:layout_width="@dimen/wh_35"
+            android:layout_height="@dimen/wh_35"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/pract_pading"
+            android:background="@drawable/delete_1"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/remove_noti_txt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wh_40"
+        android:background="@drawable/longpress_back"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/txt_10"
+        android:text="Long press to remove the notification.."
+        android:textColor="#000"
+        android:textSize="@dimen/txt_12"
+        android:layout_below="@+id/tool_lay"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ads_lay"
+        android:layout_below="@+id/remove_noti_txt">
+
+        <RelativeLayout
+            android:id="@+id/NoNotification_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgg"
+                android:layout_width="@dimen/wh_240"
+                android:layout_height="@dimen/wh_240"
+                android:layout_centerInParent="true"
+                android:src="@drawable/no_notification_icon" />
+
+            <TextView
+                android:id="@+id/txtNoNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgg"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="Nothing to show to right now"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#000"
+            android:dividerHeight="@dimen/wh_1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/listView1"
+            android:background="#000"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ads_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone" />
+</RelativeLayout>
